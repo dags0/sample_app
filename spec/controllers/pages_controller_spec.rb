@@ -52,7 +52,7 @@ describe PagesController do
        get 'help'
        response.should be_success
      end
-
+auto
 
       it "should have the right title" do
         get 'help'
